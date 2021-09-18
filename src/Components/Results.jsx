@@ -21,7 +21,10 @@ function Results(props) {
 
     return (
         <div>
-            {data.name}
+            <h3>Picture:</h3> <img src={data.images[0].resource_uri} alt={data.name} srcset="" />
+            <h3>Stage Name:</h3> {data.name}
+            <h3>Born as:</h3> {data.realname}
+            <h3>Bio:</h3> {data.profile}
         </div>
     )
 }
