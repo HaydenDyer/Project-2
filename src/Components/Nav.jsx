@@ -1,14 +1,13 @@
 import React from 'react';
 import Home from './Home';
 import Results from './Results';
+import Details from './Details';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 
 function Nav(props) {
     return (
         <Router>
-
             <div>
-                
                 <nav className='nav'>
 
                         <Link to='/home'>
@@ -18,25 +17,22 @@ function Nav(props) {
                         <Link to='/artists'>
                             <h1>Artists</h1>
                         </Link>
-
                 </nav>
-
                 <main>
-
                     <Route 
                     path='/home' 
                     component={Home}
                     />
-
                     <Route 
                     path='/artists' 
                     component={Results}
                     />
-
+                    <Route 
+                    path="/details/:name" 
+                    component={Details} 
+                    />
                 </main>
-
             </div>
-
         </Router>
     );
 }

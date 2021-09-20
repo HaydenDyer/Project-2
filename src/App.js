@@ -3,9 +3,9 @@ import Nav from './Components/Nav';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <h1>
-        (app name goes here)
+        (app name TBD)
       </h1>
       <Nav />
     </div>
