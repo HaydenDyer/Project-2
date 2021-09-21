@@ -24,8 +24,8 @@ function Artists(props) {
             {data.map(item => {
                 return (
                     <div className='item' key={item.name}>
-                        <h2 className='name'>{item.name}</h2>
-                        <h3 className='count'>{item.playcount}</h3>
+                        <a href={item.url} className='lastFmLink'><h2>{item.name}</h2></a>
+                        <h4>♫ Listeners: {item.listeners}</h4>
                     </div>
                 )
             })}

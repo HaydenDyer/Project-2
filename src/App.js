@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='app'>
       <h1 className='title'>
-        Last.fm Charts Viewer
+        So this is what the kids are listening to these days?
       </h1>
       <Nav />
     </div>

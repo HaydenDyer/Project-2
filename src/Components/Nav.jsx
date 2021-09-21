@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home';
+import About from './About';
 import Artists from './Artists';
 import Tracks from './Tracks';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
@@ -10,28 +10,28 @@ function Nav(props) {
             <div>
                 <nav className='nav'>
 
-                        <Link to='/home'
-                        className='link'
-                        >
-                            <h1>Home</h1>
-                        </Link>
-
                         <Link to='/artists'
-                        className='link'
+                        className='navLink'
                         >
                             <h1>Artists</h1>
                         </Link>
 
                         <Link to='/tracks'
-                        className='link'
+                        className='navLink'
                         >
                             <h1>Tracks</h1>
+                        </Link>
+
+                        <Link to='/'
+                        className='navLink'
+                        >
+                            <h1>About</h1>
                         </Link>
                 </nav>
                 <main>
                     <Route 
-                    path='/home' 
-                    component={Home}
+                    exact path='/' 
+                    component={About}
                     />
                     <Route 
                     path='/artists' 
