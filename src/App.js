@@ -4,8 +4,8 @@ import Nav from './Components/Nav';
 function App() {
   return (
     <div className='app'>
-      <h1>
-        (app name TBD)
+      <h1 className='title'>
+        Last.fm Charts Viewer
       </h1>
       <Nav />
     </div>

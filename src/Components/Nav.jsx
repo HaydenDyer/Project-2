@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Home';
-import Results from './Results';
-import Details from './Details';
+import Artists from './Artists';
+import Tracks from './Tracks';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 
 function Nav(props) {
@@ -10,12 +10,22 @@ function Nav(props) {
             <div>
                 <nav className='nav'>
 
-                        <Link to='/home'>
+                        <Link to='/home'
+                        className='link'
+                        >
                             <h1>Home</h1>
                         </Link>
 
-                        <Link to='/artists'>
+                        <Link to='/artists'
+                        className='link'
+                        >
                             <h1>Artists</h1>
+                        </Link>
+
+                        <Link to='/tracks'
+                        className='link'
+                        >
+                            <h1>Tracks</h1>
                         </Link>
                 </nav>
                 <main>
@@ -25,11 +35,11 @@ function Nav(props) {
                     />
                     <Route 
                     path='/artists' 
-                    component={Results}
+                    component={Artists}
                     />
                     <Route 
-                    path="/details/:name" 
-                    component={Details} 
+                    path="/tracks/" 
+                    component={Tracks} 
                     />
                 </main>
             </div>
