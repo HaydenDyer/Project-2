@@ -2,8 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 function Tracks(props) {
 
-    const url = `https://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=${process.env.REACT_APP_LASTFM_KEY}&format=json
-`
+    const url = `https://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=${process.env.REACT_APP_LASTFM_KEY}&format=json`
     const [data, setData] = useState([])
 
     useEffect(() => {
