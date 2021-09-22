@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 
 function Artists(props) {
 
-    const url = 'http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=0be892c9ac6fd82d073ae54c07db57e3&format=json'
-
+    const url = `https://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=${process.env.REACT_APP_LASTFM_KEY}&format=json
+`
     const [data, setData] = useState([])
 
     useEffect(() => {

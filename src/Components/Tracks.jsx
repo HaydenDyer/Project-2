@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 function Tracks(props) {
 
-    const url = `http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=${process.env.REACT_APP_LASTFM_KEY}&format=json
+    const url = `https://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=${process.env.REACT_APP_LASTFM_KEY}&format=json
 `
     const [data, setData] = useState([])
 
@@ -15,17 +15,11 @@ function Tracks(props) {
             .catch(console.error)
     }, [])
 
-    while (data.length < 1) {
-        return null
-    }
-
     function addCommas(x) {
         let n = parseInt(x)
         let str = n.toLocaleString("en-US")
         return str
     }
-
-    console.log(addCommas(2306802));
 
     return (
         <section className='list'>
