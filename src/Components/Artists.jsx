@@ -25,12 +25,12 @@ function Artists(props) {
     }
 
     return (
-        <section className='list'>
+        <section>
             {data.map(item => {
                 return (
                     <div className='item' key={item.name}>
-                        <a href={item.url} className='lastFmLink'><h2>{item.name}</h2></a>
-                        <h4>♫ Listeners: {addCommas(item.listeners)}</h4>
+                        <a href={item.url} className='lastFmLink'><h2 className='name'>{item.name}</h2></a>
+                        <h4 className='count'>♫ Listeners: {addCommas(item.listeners)}</h4>
                     </div>
                 )
             })}

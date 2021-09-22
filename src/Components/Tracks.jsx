@@ -21,12 +21,12 @@ function Tracks(props) {
     }
 
     return (
-        <section className='list'>
+        <section>
             {data.map(item => {
                 return (
                     <div className='item' key={item.name}>
-                        <a href={item.url} className='lastFmLink'><h2>"{item.name}" by {item.artist.name}</h2></a>
-                        <h4>► Times Played: {addCommas(item.playcount)}</h4>
+                        <a href={item.url} className='lastFmLink'><h2 className='name'>"{item.name}" by {item.artist.name}</h2></a>
+                        <h4 className='count'>► Times Played: {addCommas(item.playcount)}</h4>
                     </div>
                 )
             })}
