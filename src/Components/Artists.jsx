@@ -19,13 +19,19 @@ function Artists(props) {
         return null
     }
 
+    function addCommas(x) {
+        let n = parseInt(x)
+        let str = n.toLocaleString("en-US")
+        return str
+    }
+
     return (
         <section className='list'>
             {data.map(item => {
                 return (
                     <div className='item' key={item.name}>
                         <a href={item.url} className='lastFmLink'><h2>{item.name}</h2></a>
-                        <h4>♫ Listeners: {item.listeners}</h4>
+                        <h4>♫ Listeners: {addCommas(item.listeners)}</h4>
                     </div>
                 )
             })}

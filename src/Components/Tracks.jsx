@@ -19,13 +19,21 @@ function Tracks(props) {
         return null
     }
 
+    function addCommas(x) {
+        let n = parseInt(x)
+        let str = n.toLocaleString("en-US")
+        return str
+    }
+
+    console.log(addCommas(2306802));
+
     return (
         <section className='list'>
             {data.map(item => {
                 return (
                     <div className='item' key={item.name}>
                         <a href={item.url} className='lastFmLink'><h2>"{item.name}" by {item.artist.name}</h2></a>
-                        <h4>► Times Played: {item.playcount}</h4>
+                        <h4>► Times Played: {addCommas(item.playcount)}</h4>
                     </div>
                 )
             })}
