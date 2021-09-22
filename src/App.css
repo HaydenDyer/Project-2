@@ -22,6 +22,7 @@ p {
     padding: 0.5rem;
     border: solid #000000;
     border-radius: 6px;
+    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
 }
 
 .navLink {
@@ -31,10 +32,12 @@ p {
     padding: 0 2rem;
     border-radius: 6px;
     text-decoration: none;
+    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
 }
 
 .navLink:hover {
     color: #A0E0C0;
+    box-shadow: 0 0 12px rgb(0, 0, 0, 0.5);
 }
 
 .lastFmLink {
@@ -45,6 +48,11 @@ p {
     padding: 0 1.5rem;
     border-radius: 6px;
     text-decoration: none;
+    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
+}
+
+.lastFmLink:hover {
+    box-shadow: 0 0 12px rgb(0, 0, 0, 0.5);
 }
 
 .item {
@@ -58,4 +66,5 @@ p {
     border-radius: 6px;
     padding: 1rem;
     font-size: larger;
+    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
 }
