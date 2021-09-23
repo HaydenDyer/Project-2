@@ -3,21 +3,21 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #282626;
+    color: #282424;
 }
 
 p {
     font-size: 32px;
     max-width: 80%;
     margin: 20px auto;
-    text-shadow: 0 0 12px rgb(0, 0, 0, 0.1);
+    text-shadow: 3px 3px 16px rgb(32, 36, 48, 0.2);
 }
 
 .title {
-    font-size: 48px;
+    font-size: 56px;
     margin: 20px auto;
     max-width: 90%;
-    text-shadow: 0 0 12px rgb(0, 0, 0, 0.1);
+    text-shadow: 3px 3px 16px rgb(32, 36, 48, 0.2);
 }
 
 .nav {
@@ -27,44 +27,43 @@ p {
     margin: 12px auto;
     background-color: #A0E0C0;
     padding: 0.5rem;
-    border: solid #282626;
+    border: solid #282424;
     border-radius: 6px;
-    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
+    box-shadow: 0 0 12px rgb(32, 36, 48, 0.25);
     max-width: 50%;
     min-width: fit-content;
 }
 
 .navLink {
     margin: 0 4px;
-    color: #FFFFEE;
-    background-color: #282626;
+    color: #FFFFF6;
+    background-color: #282424;
     padding: 0 1.25rem;
     font-size: 12px;
     border-radius: 6px;
     text-decoration: none;
-    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
+    box-shadow: 0 0 12px rgb(32, 36, 48, 0.25);
 }
 
 
 
 .navLink:hover {
-    color: #A0E0C0;
-    box-shadow: 0 0 12px rgb(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px rgb(32, 36, 48, 0.66);
 }
 
 .lastFmLink {
-    color: #282626;
-    border: solid #282626;
+    color: #282424;
+    border: solid #282424;
     border-radius: 6px;
-    background-color: #FFFFEE;
+    background-color: #FFFFF6;
     padding: 0 1.5rem;
     border-radius: 6px;
     text-decoration: none;
-    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
+    box-shadow: 0 0 12px rgb(32, 36, 48, 0.25);
 }
 
 .lastFmLink:hover {
-    box-shadow: 0 0 12px rgb(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px rgb(32, 36, 48, 0.66);
 }
 
 .item {
@@ -74,11 +73,11 @@ p {
     align-items: center;
     margin: 24px auto;
     background-color: #9F9FE0;
-    border: solid #282626;
+    border: solid #282424;
     border-radius: 6px;
     padding: 1rem;
     font-size: 24px;
-    box-shadow: 0 0 12px rgb(0, 0, 0, 0.25);
+    box-shadow: 0 0 12px rgb(32, 36, 48, 0.25);
     width: fit-content;
     max-width: 80%;
 }
@@ -100,7 +99,7 @@ p {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     p {
         font-size: 24px;
     }
