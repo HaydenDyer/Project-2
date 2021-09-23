@@ -1,4 +1,5 @@
 # General Assembly SEIR Project 2
+
 ## Description
 With this project, I created an app that takes chart info from the Last.fm API and displays it in a simple, easy to read format. There are two tabs that display the most popular items of the current week; one for artists, and another for tracks. I provided links to the respective Last.fm pages of the items, as well as a numerical representation of their popularity, in the form of listener/stream count.
 
@@ -6,6 +7,9 @@ I knew I wanted to use a music API because music is something I am very passiona
 
 ### Screenshot:
 <img width="1440" alt="project2_screenshot1" src="https://user-images.githubusercontent.com/88629830/134415057-aa0d286c-aa63-49b4-b265-a0de513f7e89.png">
+
+### Deployed Site:
+[So this is what the kids are listening to these days?](https://stiwtkalttd.netlify.app/)
 
 ## Technologies Used
 For this project, I used JavaScript and React.
