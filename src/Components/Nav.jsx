@@ -10,23 +10,23 @@ function Nav(props) {
             <div>
                 <nav className='nav'>
 
-                        <Link to='/artists'
-                        className='navLink'
-                        >
-                            <h1>Artists</h1>
-                        </Link>
+                    <Link to='/artists'
+                    className='navLink'
+                    >
+                        <h1>Artists</h1>
+                    </Link>
 
-                        <Link to='/tracks'
-                        className='navLink'
-                        >
-                            <h1>Tracks</h1>
-                        </Link>
+                    <Link to='/tracks'
+                    className='navLink'
+                    >
+                        <h1>Tracks</h1>
+                    </Link>
 
-                        <Link to='/'
-                        className='navLink'
-                        >
-                            <h1>About</h1>
-                        </Link>
+                    <Link to='/'
+                    className='navLink'
+                    >
+                        <h1>About</h1>
+                    </Link>
                 </nav>
                 <main>
                     <Route 

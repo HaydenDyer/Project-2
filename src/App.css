@@ -10,14 +10,14 @@ p {
     font-size: 32px;
     max-width: 80%;
     margin: 20px auto;
-    text-shadow: 3px 3px 16px rgb(32, 36, 48, 0.2);
+    text-shadow: 3px 3px 16px rgb(32, 36, 48, 0.1);
 }
 
 .title {
     font-size: 56px;
     margin: 20px auto;
     max-width: 90%;
-    text-shadow: 3px 3px 16px rgb(32, 36, 48, 0.2);
+    text-shadow: 3px 3px 16px rgb(32, 36, 48, 0.1);
 }
 
 .nav {
@@ -36,7 +36,7 @@ p {
 
 .navLink {
     margin: 0 4px;
-    color: #FFFFF6;
+    color: #FFFFFF;
     background-color: #282424;
     padding: 0 1.25rem;
     font-size: 12px;
@@ -55,7 +55,7 @@ p {
     color: #282424;
     border: solid #282424;
     border-radius: 6px;
-    background-color: #FFFFF6;
+    background-color: #FFFFFF;
     padding: 0 1.5rem;
     border-radius: 6px;
     text-decoration: none;
