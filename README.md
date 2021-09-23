@@ -6,7 +6,7 @@ With this project, I created an app that takes chart info from the Last.fm API a
 I knew I wanted to use a music API because music is something I am very passionate about, as well as data and numbers. I've always enjoyed looking at lists and charts that revolve around musical critique and popularity.
 
 ### Screenshot:
-<img width="1440" alt="project2_screenshot1" src="https://user-images.githubusercontent.com/88629830/134415057-aa0d286c-aa63-49b4-b265-a0de513f7e89.png">
+<img width="1440" alt="screenshot of app in browser" src="https://user-images.githubusercontent.com/88629830/134595249-f744029f-e86b-472f-bdee-cdbb6c27d9d3.png">
 
 ### Deployed Site:
 [So this is what the kids are listening to these days?](https://stiwtkalttd.netlify.app/)
