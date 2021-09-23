@@ -14,10 +14,6 @@ function Artists(props) {
             .catch(console.error)
     }, [])
 
-    while (data.length < 1) {
-        return null
-    }
-
     function addCommas(x) {
         let n = parseInt(x)
         let str = n.toLocaleString("en-US")
